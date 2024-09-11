@@ -74,14 +74,14 @@ layout: home
             <div class="col-3">
               <p class="m-0 text-end">
                 {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
+                  {{ entry.startDate | slice: 0,10 }}
                 {% endif %}
                 {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
                 -
                 {% endif %}
                 {% if entry.endDate %}
                 {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
+                  {{ entry.endDate | slice: 0,10 }}
                 {% else %}
                   {{ entry.endDate }}
                 {% endif %}
