@@ -6,14 +6,12 @@ layout: home
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
-    <!-- Seção de título -->
     <div class="row">
       <div class="col">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
       </div>
     </div>
 
-    <!-- Informações de contato -->
     <div class="row">
       <div class="col">
         {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
@@ -38,7 +36,6 @@ layout: home
       </div>
     </div>
 
-    <!-- Seção de currículo com botão de download -->
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Resumo</h1>
@@ -62,8 +59,7 @@ layout: home
         </a>
       </div>
     </div>
-
-    <!-- Outras seções de informações do currículo -->
+    
     {% if site.data.bio.work %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
@@ -90,7 +86,7 @@ layout: home
                   {{ entry.startDate | slice: 0,10 }}
                 {% endif %}
                 {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                - 
+                -
                 {% endif %}
                 {% if entry.endDate %}
                 {% if entry.endDate != "Present" %}
@@ -133,7 +129,7 @@ layout: home
                   {{ entry.startDate | slice: 0,4 }}
                 {% endif %}
                 {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                - 
+                -
                 {% endif %}
                 {% if entry.endDate %}
                   {% if entry.endDate != "Present" %}
@@ -211,7 +207,7 @@ layout: home
                 {{ entry.startDate | slice: 0,30 }}
               {% endif %}
               {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-              - 
+              -
               {% endif %}
               {% if entry.endDate %}
                 {% if entry.endDate != "Present" %}
@@ -249,3 +245,28 @@ layout: home
             </p>
           </div>
         </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if site.data.bio.references %}
+    <div class="row pt-4 align-items-center">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">References</h1>
+      </div>
+
+      <div class="col-lg-9">
+        <p class="m-0">
+          {% for entry in site.data.bio.references %}
+            {{ entry.name }}
+            {% if entry.reference and entry.reference.size > 0 %}
+              <em>{{ entry.reference }}</em>
+            {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
