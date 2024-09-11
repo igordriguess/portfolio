@@ -10,9 +10,7 @@
     "location": { "Rua Adão Adolfo": "", "postalCode": "14150-000", "city": "Serrana", "countryCode": "Brasil", "region": "São Paulo" },
     "profiles": [
       { "network": "github", "username": "igordriguess", "url": "http://github.com/igordriguess" },
-      { "network": "linkedin", "username": "igordriguess", "url": "http://linkedin.com/in/igordriguess" },
-      { "_network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "_network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "igordriguess", "url": "http://linkedin.com/in/igordriguess" }
     ]
   },
   "interests": [
