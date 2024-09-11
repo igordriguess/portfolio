@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/image_python.png
+image: img/Project1.png
 title: "Automação em Python"
 date: 2024
 published: true
