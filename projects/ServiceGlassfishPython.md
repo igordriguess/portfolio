@@ -12,7 +12,7 @@ labels:
 summary: "Aplicativo de automação em Python para criação do domínio e instalação do serviço do Glassfish"
 ---
 
-<img class="img-fluid" src="../img/image_python.png">
+<img class="img-fluid" src="../img/ServiceGlassfish.png">
 
 Desenvolvi esse script de automação em Python e converti para .EXE usando a biblioteca "pyinstaller".
 
