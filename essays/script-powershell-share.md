@@ -41,6 +41,7 @@ A pasta TestFolder foi compartilhada como \\OCSENAPL01\TestFolder$.
 ```
 
 <b>Benefícios</b>
+
 Automatização: Redução do trabalho manual e erros humanos ao garantir que todas as pastas necessárias sejam compartilhadas corretamente.
 Eficiência: A capacidade de gerenciar múltiplos servidores de forma simultânea e consistente.
 Flexibilidade: Facilidade para ajustar critérios de filtragem e grupos de permissões conforme necessidades futuras.
