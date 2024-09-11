@@ -16,6 +16,7 @@ No meu recente projeto, desenvolvi um script PowerShell robusto para gerenciar c
 Objetivo: Garantir que todas as pastas de produção em servidores específicos estejam compartilhadas de forma adequada e que os compartilhamentos não existentes sejam criados conforme necessário.
 
 <b>O que o script faz</b>
+
 Consulta e Filtragem:
 O script conecta-se a servidores remotos (OCSENAPLH01, OCSENAPL01, OCSENAPL02, OCSENAPL03 e OCSENAPL04) e obtém uma lista de pastas no caminho D:\ que atendem a critérios específicos (nomes contendo _p e excluindo termos como OLD e Teste).
 
