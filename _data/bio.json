@@ -13,53 +13,53 @@
       "region": "São Paulo"
     },
     "profiles": [
-      { 
-        "network": "github", 
-        "username": "igordriguess", 
-        "url": "http://github.com/igordriguess" 
+      {
+        "network": "github",
+        "username": "igordriguess",
+        "url": "http://github.com/igordriguess"
       },
-      { 
-        "network": "linkedin", 
-        "username": "igordriguess", 
-        "url": "http://linkedin.com/in/igordriguess" 
+      {
+        "network": "linkedin",
+        "username": "igordriguess",
+        "url": "http://linkedin.com/in/igordriguess"
       }
     ]
   },
   "resume": [
-    { 
-      "name": "Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. Especialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior." 
+    {
+      "name": "Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. Especialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior."
     }
   ],
   "skills": [
     {
       "name": "Linguagem de Programação",
-      "keywords": [ "Python", "PowerShell", "HTML", "Javascript", "JSON", "CSS" ]
+      "keywords": ["Python", "PowerShell", "HTML", "Javascript", "JSON", "CSS"]
     },
     {
       "name": "Banco de Dados e Sistemas",
-      "keywords": [ "SQL Server", "Oracle Database", "MongoDB", "SAP", "Senior Sistemas" ]
+      "keywords": ["SQL Server", "Oracle Database", "MongoDB", "SAP", "Senior Sistemas"]
     },
     {
       "name": "DevOps e Monitoramento",
-      "keywords": [ "Terraform", "Kubernetes", "NodeJS", "ReactJS", "Docker", "Zabbix", "Grafana" ]
+      "keywords": ["Terraform", "Kubernetes", "NodeJS", "ReactJS", "Docker", "Zabbix", "Grafana"]
     },
     {
       "name": "Servidores e Serviços",
-      "keywords": [ "OCI", "Microsoft Azure", "RabbitMQ", "JBoss WildFly", "Glassfish Server" ]
+      "keywords": ["OCI", "Microsoft Azure", "RabbitMQ", "JBoss WildFly", "Glassfish Server"]
     }
   ],
-    "certification": [
+  "certification": [
     {
       "name": "OCI Architect Associate",
-      "keywords": [ "Emitida em Novembro de 2023" ]
-    }
+      "keywords": ["Emitida em Novembro de 2023"]
+    },
     {
       "name": "OCI Foundations Associate",
-      "keywords": [ "Emitida em Junho de 2023" ]
-    }
-      {
+      "keywords": ["Emitida em Junho de 2023"]
+    },
+    {
       "name": "ITIL 4 Fundations",
-      "keywords": [ "Emitida em Junho de 2021" ]
+      "keywords": ["Emitida em Junho de 2021"]
     }
   ],
   "education": [
@@ -71,7 +71,7 @@
       "endDate": "12/2020"
     }
   ],
-    "work": [
+  "work": [
     {
       "company": "Statum Tecnologia em Informática LTDA",
       "position": "Cloud Infrastructure Analyst",
