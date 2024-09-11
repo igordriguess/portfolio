@@ -47,7 +47,7 @@ Eficiência: A capacidade de gerenciar múltiplos servidores de forma simultâne
 Flexibilidade: Facilidade para ajustar critérios de filtragem e grupos de permissões conforme necessidades futuras.
 Este script é um exemplo prático da aplicação de PowerShell para administrar e automatizar tarefas administrativas complexas, melhorando a eficiência e a precisão no ambiente de produção.
 
-Segue o código completo:
+<b>Segue o código completo:</b>
 ```
 while ($true) {
 Clear-Host
