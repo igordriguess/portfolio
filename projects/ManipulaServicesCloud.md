@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Project2.png
-title: "Aplicativo de automação de serviços em Python"
+title: "Manipulador de serviços Cloud"
 date: 2024
 published: true
 labels:
