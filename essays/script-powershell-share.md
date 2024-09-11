@@ -18,17 +18,21 @@ Objetivo: Garantir que todas as pastas de produção em servidores específicos 
 <b>O que o script faz</b>
 
 Consulta e Filtragem:
+
 O script conecta-se a servidores remotos (OCSENAPLH01, OCSENAPL01, OCSENAPL02, OCSENAPL03 e OCSENAPL04) e obtém uma lista de pastas no caminho D:\ que atendem a critérios específicos (nomes contendo _p e excluindo termos como OLD e Teste).
 
 Verificação de Compartilhamentos:
+
 Para cada pasta, verifica se já existe um compartilhamento correspondente.
 Se não houver um compartilhamento existente, o script cria um novo compartilhamento.
 
 Configuração de Permissões:
+
 O script coleta as permissões atuais de cada pasta e classifica os grupos de usuários (RH, HCM, Compliance, Sapiens) conforme as regras definidas.
 Mantém as permissões NTFS existentes enquanto cria novos compartilhamentos com as permissões necessárias.
 
 Interface e Repetição:
+
 Após a execução em todos os servidores, o script oferece a opção de reiniciar a execução, permitindo a administração contínua conforme necessário.
 
 Exemplo de sáida:
