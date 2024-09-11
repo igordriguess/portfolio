@@ -14,6 +14,7 @@ labels:
 O objetivo deste script é garantir que serviços essenciais de produção estejam sempre em execução. Ele monitora constantemente os serviços AUTO que estão configurados para iniciar automaticamente, mas que por algum motivo estão parados. Além de identificá-los, ele os reinicia automaticamente.
 
 <b>Funcionalidades principais</b>
+
 Monitoramento Contínuo: O script é executado em loop infinito, verificando a cada ciclo o status dos serviços em múltiplos servidores de produção (OCSENAPL01, OCSENAPL02, etc.).
 
 Filtro de Serviços: Ele busca especificamente por serviços cuja identificação contém "p" (indicando que são serviços de produção), estão parados (State -eq "Stopped") e configurados para inicialização automática (StartMode -eq "Auto").
