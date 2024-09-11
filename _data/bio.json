@@ -17,13 +17,13 @@
       { "network": "linkedin", "username": "igordriguess", "url": "http://linkedin.com/in/igordriguess" }
     ]
   },
-  "Interesses": [
+  "interests": [
     { "name": "Infraestrutura e redes" },
     { "name": "Desenvolvimento e programação" },
     { "name": "Cloud Computing" },
     { "name": "Gestão de Projetos" }
   ],
-  "Conhecimentos": [
+  "skills": [
     {
       "name": "Linguagem de Programação",
       "keywords": [ "Python", "PowerShell", "HTML5", "Javascript", "JSON", "CSS" ]
@@ -33,7 +33,7 @@
       "keywords": [ "Linux", "Windows" ]
     }
   ],
-  "Formação": [
+  "education": [
     {
       "institution": "Centro Universitário Moura Lacerda",
       "area": "Ciência da Computação",
@@ -42,7 +42,7 @@
       "endDate": "12/2020"
     }
   ],
-  "Experiência": [
+  "work": [
     {
       "company": "Statum Tecnologia em Informática LTDA",
       "position": "Cloud Infrastructure Analyst",
