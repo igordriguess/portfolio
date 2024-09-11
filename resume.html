@@ -163,7 +163,7 @@ layout: home
       <div class="col-lg-9">
         {% for entry in site.data.bio.certification %}
           <p class="m-0">
-            <b>{{ entry.name }} |</b>
+            <b>{{ entry.name }}</b>
               {% for keyword in entry.keywords %}
                 {{ keyword }}{% if forloop.last != true %}, {% endif %}
               {% endfor %}
