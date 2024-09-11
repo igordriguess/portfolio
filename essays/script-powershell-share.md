@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Boas práticas no PowerShell"
+title: "Explicando - Por dentro do script de correção dos compartilhamentos no ambiente Cloud"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-11
 published: true
