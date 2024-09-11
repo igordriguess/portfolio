@@ -9,7 +9,7 @@ labels:
   - PowerShell
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/Share.png">
+<img class="img-fluid" src="../img/Share.png">
 
 Este script PowerShell automatiza a consulta de compartilhamentos de produção no ambiente HCM. Ele permite que o usuário verifique se as pastas específicas estão compartilhadas corretamente em um servidor remoto, filtrando por critérios personalizados, e apresenta um relatório detalhado de pastas compartilhadas e não compartilhadas.
 
