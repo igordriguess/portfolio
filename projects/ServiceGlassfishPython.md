@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/kisspng-python-computer-icons-programming-language-executa-1713885634631.png
+image: img/image_python.png
 title: "Automação em Python"
 date: 2024
 published: true
@@ -12,7 +12,7 @@ labels:
 summary: "Aplicativo de automação em Python para criação do domínio e instalação do serviço do Glassfish"
 ---
 
-<img class="img-fluid" src="../img/python.png">
+<img class="img-fluid" src="../img/image_python.png">
 
 Desenvolvi esse script de automação em Python e converti para .EXE usando a biblioteca "pyinstaller".
 
