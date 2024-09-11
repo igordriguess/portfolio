@@ -36,14 +36,41 @@ layout: home
       </div>
     </div>
 
-  <!-- Adicionando a seção de download do currículo -->
-    <div class="row pt-4">
-      <div class="col text-center">
-        <p>Baixe o currículo atualizado em PDF:</p>
-        <a href="{{ site.baseurl }}Igor Rodrigues.pdf" class="btn btn-primary" download>
-          Baixar Currículo
-        </a>
-      </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .download-section {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .download-section p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Adicionando a seção de download do currículo -->
+    <div class="download-section">
+      <p>Baixe o currículo atualizado em PDF:</p>
+      <a href="{{ site.baseurl }}Igor Rodrigues.pdf" class="btn btn-primary" download>
+        Baixar Currículo
+      </a>
+    </div>
+  </div>
+
+  <!-- Scripts JavaScript do Bootstrap (opcional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.10/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
     
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
