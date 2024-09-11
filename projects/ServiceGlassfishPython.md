@@ -32,7 +32,7 @@ Excluir a pasta do "domain1" que fica dentro de:
 glassfish4\glassfish\domains\
 
 Segue o manual para execução do aplicativo:
-[Script para criação do domínio e instalação do serviço do Glassfish.pdf](https://github.com/user-attachments/files/16870176/Script.para.criacao.do.dominio.e.instalacao.do.servico.do.Glassfish.pdf)
+[Instrução.pdf](https://github.com/user-attachments/files/16870176/Script.para.criacao.do.dominio.e.instalacao.do.servico.do.Glassfish.pdf)
 
 Segue o executável para criação do domínio e instalação do serviço:
 [ServiceGlassfish.zip](https://github.com/user-attachments/files/16861661/ServiceGlassfish.zip)
