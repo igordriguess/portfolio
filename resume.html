@@ -44,19 +44,10 @@ layout: home
         <p class="resume">
           {% for entry in site.data.bio.resume %}
           {{ entry.name }}
+          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
           {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
-      </div>
-    </div>
-
-    <!-- Adicionando a seção de download do currículo -->
-    <div class="row pt-4">
-      <div class="col text-center">
-        <p>Baixe o currículo atualizado em PDF:</p>
-        <a href="{{ site.baseurl }}/assets/IgorRodrigues.pdf" class="btn btn-primary" download>
-          Baixar Currículo
-        </a>
       </div>
     </div>
     
@@ -270,3 +261,13 @@ layout: home
     {% endif %}
   </div>
 </div>
+
+    <!-- Adicionando a seção de download do currículo -->
+    <div class="row pt-4">
+      <div class="col text-center">
+        <p>Baixe o currículo atualizado em PDF:</p>
+        <a href="{{ site.baseurl }}/assets/Igor Rodrigues.pdf" class="btn btn-primary" download>
+          Baixar Currículo
+        </a>
+      </div>
+    </div>
