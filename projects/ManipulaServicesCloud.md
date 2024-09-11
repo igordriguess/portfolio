@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Project1.png
+image: img/Project2.png
 title: "Aplicativo de automação de serviços em Python"
 date: 2024
 published: true
