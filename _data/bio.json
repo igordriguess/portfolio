@@ -8,9 +8,7 @@
     "website": "https://igordriguess.github.io/portfolio/",
     "summary": "Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. \nEspecialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior.",
     "location": {
-      "address": "Rua Adão Adolfo",
-      "postalCode": "14150-000",
-      "city": "Serrana",
+      "city": "Ribeirão Preto",
       "countryCode": "Brasil",
       "region": "São Paulo"
     },
@@ -19,13 +17,13 @@
       { "network": "linkedin", "username": "igordriguess", "url": "http://linkedin.com/in/igordriguess" }
     ]
   },
-  "interests": [
+  "Interesses": [
     { "name": "Infraestrutura e redes" },
     { "name": "Desenvolvimento e programação" },
     { "name": "Cloud Computing" },
     { "name": "Gestão de Projetos" }
   ],
-  "skills": [
+  "Conhecimentos": [
     {
       "name": "Linguagem de Programação",
       "keywords": [ "Python", "PowerShell", "HTML5", "Javascript", "JSON", "CSS" ]
@@ -35,7 +33,7 @@
       "keywords": [ "Linux", "Windows" ]
     }
   ],
-  "education": [
+  "Formação": [
     {
       "institution": "Centro Universitário Moura Lacerda",
       "area": "Ciência da Computação",
@@ -44,13 +42,12 @@
       "endDate": "12/2020"
     }
   ],
-  "work": [
+  "Experiência": [
     {
       "company": "Statum Tecnologia em Informática LTDA",
       "position": "Cloud Infrastructure Analyst",
-      "website": "https://www.statum.com.br/",
       "startDate": "08/2020",
-      "endDate": "Atualmente",
+      "endDate": "Hoje",
       "summary": "",
       "highlights": [
         "Atuo na sustentação e disponibilização do ambiente Cloud usando OCI e Azure.",
