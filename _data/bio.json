@@ -6,8 +6,14 @@
     "email": "igorvprodrigues@gmail.com",
     "phone": "(+55) 16 99158-4347",
     "website": "https://igordriguess.github.io/portfolio/",
-    "summary": "Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. \n Especialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior."
-    "location": { "Rua Adão Adolfo": "", "postalCode": "14150-000", "city": "Serrana", "countryCode": "Brasil", "region": "São Paulo" },
+    "summary": "Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. \nEspecialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior.",
+    "location": {
+      "address": "Rua Adão Adolfo",
+      "postalCode": "14150-000",
+      "city": "Serrana",
+      "countryCode": "Brasil",
+      "region": "São Paulo"
+    },
     "profiles": [
       { "network": "github", "username": "igordriguess", "url": "http://github.com/igordriguess" },
       { "network": "linkedin", "username": "igordriguess", "url": "http://linkedin.com/in/igordriguess" }
@@ -17,8 +23,7 @@
     { "name": "Infraestrutura e redes" },
     { "name": "Desenvolvimento e programação" },
     { "name": "Cloud Computing" },
-    { "name": "Gestão de Projetos" },
-    { "_name": "3D Graphics" }
+    { "name": "Gestão de Projetos" }
   ],
   "skills": [
     {
