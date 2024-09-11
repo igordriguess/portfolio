@@ -1,19 +1,18 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
-title: "Service Glassfish em Python"
+image: img/kisspng-python-computer-icons-programming-language-executa-1713885634631.png
+title: "Automação em Python"
 date: 2024
 published: true
 labels:
   - Python
   - PowerShell
+  - Glassfish
 summary: "Aplicativo de automação em Python para criação do domínio e instalação do serviço do Glassfish"
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
-
-# GlassfishServicePython
+<img class="img-fluid" src="../img/python.png">
 
 Desenvolvi esse script de automação em Python e converti para .EXE usando a biblioteca "pyinstaller".
 
@@ -31,7 +30,6 @@ C:\glassfish4\
 
 Excluir a pasta do "domain1" que fica dentro de:
 glassfish4\glassfish\domains\
-
 
 Segue o manual para execução do aplicativo:
 [Script para criação do domínio e instalação do serviço do Glassfish.pdf](https://github.com/user-attachments/files/16870176/Script.para.criacao.do.dominio.e.instalacao.do.servico.do.Glassfish.pdf)
