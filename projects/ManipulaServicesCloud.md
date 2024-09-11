@@ -11,7 +11,7 @@ labels:
 summary: "Aplicativo de automação em Python para execução de scripts em Powershell"
 ---
 
-![Tela inicial](img/ServiceCloud.png)
+img/ServiceCloud.png
 
 Desenvolvi em Python um aplicativo Flask que executa uma automação com scripts em PowerShell para manipular os serviços do servidor, especialmente os serviços do ecosistema Senior.
 
