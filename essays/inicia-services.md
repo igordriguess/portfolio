@@ -50,7 +50,6 @@ while ($true) {
     if ($restartScript -ne "S") { break }
 }
 
-
 ```
 
 Essa solução otimiza a gestão de serviços e pode ser integrada em operações diárias para aumentar a resiliência da infraestrutura.
