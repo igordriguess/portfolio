@@ -18,10 +18,7 @@
     ]
   },
   "interests": [
-    { "name": "Infraestrutura e redes" },
-    { "name": "Desenvolvimento e programação" },
-    { "name": "Cloud Computing" },
-    { "name": "Gestão de Projetos" }
+    { "name": "Infraestrutura, desenvolvimento e gestão de projetos" }
   ],
   "skills": [
     {
