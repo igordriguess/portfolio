@@ -41,8 +41,8 @@ layout: home
         <h1 class="display-6 text-start m-0">Resumo</h1>
       </div>
       <div class="col-lg-9">
-        <p class="resumo">
-          {% for entry in site.data.bio.summary %}
+        <p class="resume">
+          {% for entry in site.data.bio.resume %}
           {{ entry.name }}
           <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
           {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
