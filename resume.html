@@ -3,15 +3,6 @@ title: resume
 layout: home
 ---
 
-<div class="row justify-content-center pt-5">
-  <div class="col-lg-6 text-center">
-    <h2 class="display-5">Currículo</h2>
-    <embed src="IgorRodrigues.pdf" width="100%" height="500px" type="application/pdf" />
-    <br>
-    <a href="IgorRodrigues.pdf" class="btn btn-primary mt-3" download>Download Currículo</a>
-  </div>
-</div>
-
 <div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
@@ -45,6 +36,21 @@ layout: home
       </div>
     </div>
 
+    <div class="row pt-4 align-items-center">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Resumo</h1>
+      </div>
+      <div class="col-lg-9">
+        <p class="lead">
+          {% for entry in site.data.bio.lead %}
+          {{ entry.name }}
+          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
+          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    
     <div class="row pt-4 align-items-center">
       <div class="col-lg-3">
         <h1 class="display-6 text-start m-0">Interesse</h1>
