@@ -37,4 +37,4 @@ Segue o manual para execução do aplicativo:
 Segue o executável para criação do domínio e instalação do serviço:
 [ServiceGlassfish.zip](https://github.com/user-attachments/files/16861661/ServiceGlassfish.zip)
 
-Clique [aqui](https://github.com/igordriguess/GlassfishServicePython/blob/main/GlassfishService.py) para visualizar o código.
+Clique [aqui](https://github.com/igordriguess/GlassfishServicePython/blob/main/GlassfishService.py) para visualizar o código completo.
