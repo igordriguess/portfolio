@@ -26,11 +26,19 @@
   "skills": [
     {
       "name": "Linguagem de Programação",
-      "keywords": [ "Python", "PowerShell", "HTML5", "Javascript", "JSON", "CSS" ]
+      "keywords": [ "Python, PowerShell, HTML, Javascript, JSON, CSS" ]
     },
     {
-      "name": "Sistemas Operacionais",
-      "keywords": [ "Linux", "Windows" ]
+      "name": "Banco de Dados e Sistemas",
+      "keywords": [ "SQL Server, Oracle Database, MongoDB, SAP, Senior Sistemas" ]
+    }
+    {
+      "name": "DevOps e Monitoramento",
+      "keywords": [ "Terraform, Kubernetes, NodeJS, ReactJS, Docker, Zabbix, Grafana" ]
+    }
+    {
+      "name": "Servidores e Serviços",
+      "keywords": [ "OCI, Microsoft Azure, RabbitMQ, JBoss WildFly, Glassfish Server" ]
     }
   ],
   "education": [
@@ -46,7 +54,7 @@
     {
       "company": "Statum Tecnologia em Informática LTDA",
       "position": "Cloud Infrastructure Analyst",
-      "startDate": "08/2020",
+      "startDate": "08/2024",
       "endDate": "Atual",
       "summary": "",
       "highlights": [
@@ -57,6 +65,18 @@
         "Auxilio na gestão de mudanças (GMUD) e administro novas implantações no ambiente.",
         "Utilizo Docker para conteinerização de aplicações, facilitando o desenvolvimento e a implantação.",
         "Auxilio na gestão dos projetos, visando uma experiência de migração confortável e bem sucedida para todos os envolvidos."
+      ]
+    },
+    {
+      "company": "Senior Sistemas S/A",
+      "position": "Cloud Support Analyst",
+      "startDate": "08/2021",
+      "endDate": "08/2024",
+      "summary": "",
+      "highlights": [
+        "Identifiquei e corrigi problemas na infraestrutura de TI para garantir a operação contínua e confiável dos sistemas.",
+        "Realizei manutenção preventiva e solucionamento de falhas, otimizando a performance dos recursos.",
+        "Desenvolvi e implementei rotinas de melhorias contínuas e customizações específicas para novos clientes, adaptando soluções para atender às suas necessidades exclusivas e melhorar a eficiência dos processos.",
       ]
     }
   ]
