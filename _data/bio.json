@@ -1,118 +1,64 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Igor Rodrigues",
+    "label": "Cloud Infrastructure Analyst | SRE | DevOps | OCI | Azure",
+    "picture": "",
+    "email": "igorvprodrigues@gmail.com",
+    "phone": "(+55) 16 99158-4347",
+    "website": "https://igordriguess.github.io/portfolio/",
+    "summary": "Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. \n Especialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior."
+    "location": { "Rua Adão Adolfo": "", "postalCode": "14150-000", "city": "Serrana", "countryCode": "Brasil", "region": "São Paulo" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "igordriguess", "url": "http://github.com/igordriguess" },
+      { "network": "linkedin", "username": "igordriguess", "url": "http://linkedin.com/in/igordriguess" },
+      { "_network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
+      { "_network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Infraestrutura e redes" },
+    { "name": "Desenvolvimento e programação" },
+    { "name": "Cloud Computing" },
+    { "name": "Gestão de Projetos" },
+    { "_name": "3D Graphics" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Linguagem de Programação",
+      "keywords": [ "Python", "PowerShell", "HTML5", "Javascript", "JSON", "CSS" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Sistemas Operacionais",
+      "keywords": [ "Linux", "Windows" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "Centro Universitário Moura Lacerda",
+      "area": "Ciência da Computação",
+      "studyType": "Bacharelado",
+      "startDate": "02/2017",
+      "endDate": "12/2020",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Statum Tecnologia em Informática LTDA",
+      "position": "Cloud Infrastructure Analyst",
+      "website": "https://www.statum.com.br/",
+      "startDate": "08/2020",
+      "endDate": "Atualmente",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Atuo na sustentação e disponibilização do ambiente Cloud usando OCI e Azure.",
+        "Atuo no desenvolvimento de automações com PowerShell e Python para melhorar a eficiência dos processos internos e estabilizar o ambiente em nuvem.",
+        "Realizo troubleshooting para correções gerais na Infraestrutura, a fim de garantir o funcionamento dos serviços e sistemas hospedados.",
+        "Realizo o monitoramento dos servidores e atuo preventivamente para garantir alta disponibilidade e desempenho.",
+        "Auxilio na gestão de mudanças (GMUD) e administro novas implantações no ambiente.",
+        "Utilizo Docker para conteinerização de aplicações, facilitando o desenvolvimento e a implantação.",
+        "Auxilio na gestão dos projetos, visando uma experiência de migração confortável e bem sucedida para todos os envolvidos."
       ]
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
 }
