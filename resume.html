@@ -42,7 +42,11 @@ layout: home
       </div>
       <div class="col-lg-9">
         <p class="resumo">
-          Profissional de TI com mais de 8 anos de experiência em infraestrutura e sustentação de ambientes cloud via OCI e Azure. \nEspecialista em automações com PowerShell e Python, experiência com monitoramento de servidores e configuração de pipelines CI/CD com forte atuação no ecossistema Senior.
+          {% for entry in site.data.bio.summary %}
+          {{ entry.name }}
+          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
+          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
+          {% endfor %}
         </p>
       </div>
     </div>
