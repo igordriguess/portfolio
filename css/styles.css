@@ -1,0 +1,133 @@
+/* Estilo geral */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: #2c3e50;
+}
+
+/* Container principal */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+/* Título principal */
+h1.display-4 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Seções */
+h2 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3498db;
+}
+
+p.resume {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #34495e;
+}
+
+/* Botão de download */
+a.btn-primary {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-primary:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+/* Seções de informações */
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+/* Lista de destaques */
+ul {
+  padding-left: 20px;
+  color: #555;
+}
+
+/* Estilizar colunas da experiência */
+.col-9, .col-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-9 ul {
+  list-style-type: disc;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+  h1.display-4 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .col-9, .col-3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .col-3 {
+    text-align: center;
+  }
+}
