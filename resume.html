@@ -15,8 +15,8 @@ layout: home
     <div class="row">
       <div class="col">
         {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
+        {% capture label %}Início{% endcapture %}
+        <p class="mb-1">{% include about/social.html url=url name='house' label=label %}</p>
 
         {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
