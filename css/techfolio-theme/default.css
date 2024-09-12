@@ -1,62 +1,36 @@
-/* Import Google Fonts for modern typography */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+/* Default theme. Simple, yet elegant. */
 
-/* Define root variables for consistent theme styling */
+/* Use Open Sans as the default sans serif font. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --light-gray: #f8f9fa;
-  --dark-gray: #343a40;
-  --white-color: #ffffff;
-  --font-family-sans: "Open Sans", sans-serif;
-  --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-link-color: var(--bs-blue);
+  --tf-pill-bg: var(--bs-gray);
+  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-hover: var(--bs-gray-500);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-/* Body and global settings */
-body {
-  font-family: var(--font-family-sans);
-  background-color: var(--light-gray);
-  color: var(--dark-gray);
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-/* Links */
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
-}
-
-a:hover {
-  color: darken(var(--primary-color), 15%);
-  text-decoration: underline;
-}
-
-/* Social media icons */
+/* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--secondary-color);
-  height: 1.8em;
-  width: 1.8em;
-  margin: 0 8px;
-  transition: fill 0.3s ease-in-out;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+  transition: 0.2s;
 }
 
 .tf-social:hover {
-  fill: var(--primary-color);
+  fill: var(--tf-icon-hover);
 }
 
-/* Navbar adjustments for responsiveness */
-.navbar-brand {
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: var(--primary-color);
-}
-
-.navbar-brand-mobile {
-  display: none;
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {
@@ -65,50 +39,12 @@ a:hover {
   }
 
   .navbar-brand-mobile {
-    display: inline-block;
-    font-size: 1.3rem;
+    display: inline;
   }
 }
 
-/* Card component styling */
-.card {
-  background-color: var(--white-color);
-  border-radius: 8px;
-  box-shadow: var(--card-shadow);
-  padding: 20px;
-  margin-bottom: 20px;
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.02);
-}
-
-/* Card footer simplification */
+/* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--white-color);
-  border-top: 1px solid var(--light-gray);
-}
-
-/* Footer styling */
-footer {
-  background-color: var(--light-gray);
-  padding: 40px;
-  text-align: center;
-  color: var(--dark-gray);
-}
-
-/* Button styles */
-.btn-primary {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-  background-color: darken(var(--primary-color), 10%);
-  cursor: pointer;
+  background-color: var(--bs-white);
+  border-top: none;
 }
