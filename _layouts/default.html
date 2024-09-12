@@ -17,9 +17,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="{{ title | xml_escape }}">
@@ -33,7 +30,8 @@
     <meta property="og:image" content="{{ site.data.bio.basics.picture }}">
     <link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ site.baseurl}}/css/techfolio-theme/{{ site.techfolio-theme}}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="{{ site.baseurl}}/css/techfolio-theme/{{ site.techfolio-theme}}"> -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}">
     <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
     {% if site.mathjax %}
