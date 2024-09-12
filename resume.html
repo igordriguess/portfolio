@@ -3,22 +3,20 @@ title: resume
 layout: home
 ---
 
-<div class="bg-light py-5">
+<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
   <div class="container">
 
-    <!-- Nome centralizado -->
     <div class="row">
-      <div class="col text-center">
-        <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
+      <div class="col">
+        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
       </div>
     </div>
 
-    <!-- Informações de contato centralizadas -->
-    <div class="row justify-content-center py-3">
-      <div class="col-md-6 text-center">
+    <div class="row">
+      <div class="col">
         {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %}</p>
+        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
 
         {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
@@ -31,41 +29,37 @@ layout: home
           <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
         {% endfor %}
       </div>
-    </div>
-
-    <!-- Informações de localização e telefone centralizadas -->
-    <div class="row justify-content-center">
-      <div class="col-md-6 text-center">
-        <p class="mb-1">{{ site.data.bio.basics.location.address }}</p>
-        <p class="mb-1">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
-        <p class="mb-1">{{ site.data.bio.basics.phone }}</p>
+      <div class="col">
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
+        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
       </div>
     </div>
 
-    <!-- Seção de download do currículo -->
-    <div class="row py-4">
+  <!-- Adicionando a seção de download do currículo -->
+    <div class="row pt-4">
       <div class="col text-center">
-        <p class="lead">Baixe o currículo atualizado em PDF:</p>
-        <a href="{{ site.baseurl }}/IgorRodrigues.pdf" class="btn btn-lg btn-primary" download>
+        <p>Baixe o currículo completo em PDF:</p>
+        <a href="{{ site.baseurl }}/Igor Rodrigues.pdf" class="btn btn-primary" download>
           Baixar Currículo
         </a>
       </div>
-    </div>
-
-    <!-- Seção de Resumo -->
-    <div class="row pt-5 justify-content-center">
-      <div class="col-lg-8">
-        <h2 class="text-center">Resumo</h2>
-        <p class="resume text-center">
+    
+    <div class="row pt-4 align-items-center">
+      <div class="col-lg-3">
+        <h1 class="display-6 text-start m-0">Resumo</h1>
+      </div>
+      <div class="col-lg-9">
+        <p class="resume">
           {% for entry in site.data.bio.resume %}
           {{ entry.name }}
+          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
           {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
       </div>
     </div>
-
-    <!-- Seção de Experiência -->
+    
     {% if site.data.bio.work %}
     <div class="row pt-4 align-items-start">
       <div class="col-lg-3">
