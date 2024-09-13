@@ -13,11 +13,11 @@ summary: "Aplicativo de automação em Python para execução de scripts em Powe
 
 Este projeto consiste em uma interface gráfica (GUI) desenvolvida em Python, utilizando a biblioteca Tkinter, para manipulação remota de serviços em ambientes de Produção e Homologação de uma infraestrutura HCM SaaS da Senior. A ferramenta permite consultar, iniciar e parar serviços associados a um cliente específico, simplificando o gerenciamento de serviços em múltiplos servidores.
 
-<b>Funcionalidades:</b>
-Consulta de Serviços Remotos: A aplicação realiza consultas remotas para verificar o status de serviços utilizando comandos PowerShell através da função subprocess, apresentando os resultados em uma tabela interativa.
-Ambientes Diferenciados: O usuário pode selecionar se deseja realizar a operação no ambiente de Produção ou Homologação, garantindo maior controle sobre os ambientes.
-Filtragem de Serviços: A interface possui um sistema de filtragem onde os nomes reais dos serviços são mascarados com nomes descritivos. Por exemplo, um serviço identificado como "seniorinst" é apresentado ao usuário como "Senior Serviço de Informação da Instalação", facilitando a identificação.
-Manipulação de Serviços: O usuário pode selecionar serviços específicos ou optar por manipular todos os serviços de uma vez. A partir desta seleção, ele pode iniciar ou parar os serviços diretamente da interface.
+<b>Funcionalidades:</b> <br/>
+Consulta de Serviços Remotos: A aplicação realiza consultas remotas para verificar o status de serviços utilizando comandos PowerShell através da função subprocess, apresentando os resultados em uma tabela interativa. <br/>
+Ambientes Diferenciados: O usuário pode selecionar se deseja realizar a operação no ambiente de Produção ou Homologação, garantindo maior controle sobre os ambientes. <br/>
+Filtragem de Serviços: A interface possui um sistema de filtragem onde os nomes reais dos serviços são mascarados com nomes descritivos. Por exemplo, um serviço identificado como "seniorinst" é apresentado ao usuário como "Senior Serviço de Informação da Instalação", facilitando a identificação. <br/>
+Manipulação de Serviços: O usuário pode selecionar serviços específicos ou optar por manipular todos os serviços de uma vez. A partir desta seleção, ele pode iniciar ou parar os serviços diretamente da interface. <br/>
 
 <b>Tecnologias utilizadas:</b>
 Python 3: Linguagem principal usada no projeto.
