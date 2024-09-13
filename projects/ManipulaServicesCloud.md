@@ -26,14 +26,23 @@ Manipulação de Serviços: O usuário pode selecionar serviços específicos ou
 <b>Tecnologias utilizadas:</b>
 
 Python 3: Linguagem principal usada no projeto.
+
 Tkinter: Biblioteca nativa do Python para criação de interfaces gráficas.
+
 subprocess: Módulo utilizado para execução de comandos PowerShell remotamente.
+
 PowerShell: Linguagem de script para realizar consultas e operações nos servidores remotos.
-Interface do Usuário:
+
+<b>Interface do Usuário:</b>
+
 Botões de Controle: O usuário pode consultar, iniciar ou parar serviços através de botões intuitivos.
+
 Tabela Dinâmica: A tabela apresenta os resultados das consultas de serviços, mostrando o nome do serviço (mascarado) e o estado atual (Em Execução ou Parado).
+
 Combobox Interativa: Um campo de seleção permite ao usuário escolher o serviço específico ou todos os serviços para realizar a operação desejada.
-Lógica do Script:
+
+<b>Lógica do Script:</b>
+
 Consulta de Serviços: Através do botão "Consultar Serviços", a aplicação coleta os serviços ativos no servidor remoto, aplicando filtros pelo cliente e ambiente selecionados. O comando PowerShell é executado remotamente, e os resultados são mostrados na tabela.
 
 Iniciar/Parar Serviços: O usuário pode iniciar ou parar serviços individualmente ou em massa. Para isso, ele escolhe o serviço desejado no combobox e clica em "Iniciar Serviço(s)" ou "Parar Serviço(s)", acionando o comando PowerShell que realiza a ação no servidor remoto.
