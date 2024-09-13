@@ -88,7 +88,7 @@ Este script proporciona uma automação completa para configuração do Glassfis
 
 <img class="img-fluid" src="../img/ServiceGlassfish.png">
 
-URL para download do Glassfish 4 direto na Oracle:
+URL para download do Glassfish 4 direto no site da Oracle:
 [Download Glassfish 4](http://download.oracle.com/glassfish/4.0/release/glassfish-4.0.zip)
 
 Após download, extrair a pasta e copiá-la para a unidade principal da máquina/servidor.
