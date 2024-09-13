@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Project2.png
-title: "Ferramenta de Gestão de Serviços HCM SaaS Orion"
+title: "Ferramenta de Gestão de Serviços"
 date: 2024
 published: true
 labels:
