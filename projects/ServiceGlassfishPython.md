@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Project1.png
-title: "Automação - Cria domain e instala serviço do Glassfish"
+title: "Automação de serviços Glassfish usando Python"
 date: 2024
 published: true
 labels:
