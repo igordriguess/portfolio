@@ -27,14 +27,4 @@ layout: default
   </div>
 </div>
 
-    <h3>Conhecimentos</h3>
-    <ul>
-      {% assign project_pages = site.pages | where: "type", "conhecimentos" | sort: "title" %}
-      {% for page in project_pages %}
-      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
 {% include footer.html %}
