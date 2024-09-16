@@ -32,31 +32,6 @@
   ],
   "skills": [
     {
-      "name": "Ferramentas e Tecnologias",
-      "keywords": [
-        {
-          "name": "Oracle",
-          "icon": "img/oracle-icon.png"
-        },
-        {
-          "name": "SQL Server",
-          "icon": "img/sqlserver-icon.png"
-        },
-        {
-          "name": "Linux",
-          "icon": "img/linux-icon.png"
-        },
-        {
-          "name": "Docker",
-          "icon": "img/docker-icon.png"
-        },
-        {
-          "name": "Kubernetes",
-          "icon": "img/kubernetes-icon.png"
-        }
-      ]
-    },
-    {
       "name": "Linguagem de Programação",
       "keywords": ["Python", "PowerShell", "HTML", "Javascript", "JSON", "CSS"]
     },
