@@ -88,21 +88,21 @@ Este script proporciona uma automação completa para configuração do Glassfis
 
 <img class="img-fluid" src="../img/ServiceGlassfish.png">
 
-URL para download do Glassfish 4 direto no site da Oracle:
+URL para download do Glassfish 4 direto no site da Oracle:<br/>
 [Download Glassfish 4](http://download.oracle.com/glassfish/4.0/release/glassfish-4.0.zip)
 
 Após download, extrair a pasta e copiá-la para a unidade principal da máquina/servidor.
 
-Renomear a pasta e manter a estrutura no padrão abaixo:
+Renomear a pasta e manter a estrutura no padrão:<br/>
 C:\glassfish4\
 
-Excluir a pasta do "domain1" que fica dentro de:
+Excluir a pasta do "domain1" que fica dentro de:<br/>
 glassfish4\glassfish\domains\
 
-Segue o manual para execução do aplicativo:
+Segue o manual em .PDF para auxiliar na execução do aplicativo:<br/>
 [Instrução.pdf](https://github.com/user-attachments/files/16870176/Script.para.criacao.do.dominio.e.instalacao.do.servico.do.Glassfish.pdf)
 
-Segue o executável para criação do domínio e instalação do serviço:
+Segue URL para download do executável do projeto:<br/>
 [ServiceGlassfish.zip](https://github.com/user-attachments/files/16861661/ServiceGlassfish.zip)
 
 Clique [aqui](https://github.com/igordriguess/GlassfishServicePython/blob/main/GlassfishService.py) para visualizar o código completo.
