@@ -14,20 +14,21 @@
         <p class="lead" style="text-align: justify; font-size: 2.5rem; margin-bottom: 20px;">
             <b>{{ site.data.bio.basics.conhecimentos }}</b>
         </p>
-
-        <!-- Efeito nos cards ao passar o mouse -->
-        <style>
-          .card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-          }
-        
-          .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-          }
-        </style> <!-- Fim do elemento de efeito -->
         
         <div class="conhecimentos-container" style="display: flex; justify-content: center; gap: 30px; margin-top: 20px; flex-wrap: wrap;">
+
+          <!-- Efeito nos cards ao passar o mouse -->
+          <style>
+            .card {
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+          
+            .card:hover {
+              transform: translateY(-10px);
+              box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+          </style> <!-- Fim do elemento de efeito -->
+          
             <div class="conhecimento-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
                 <img src="img/powershell-logo.png" alt="PowerShell" style="width: 100px; margin-bottom: 10px;">
                 <!--<h3 style="color: #333;">PowerShell</h3>-->
