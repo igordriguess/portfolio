@@ -7,6 +7,16 @@
     </div>
 
     <div class="vstack gap-3">
+      <style>
+        .card {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+      
+        .card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+      </style>
       {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
       {% for page in project_pages %}
         {% unless page.draft %}
