@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Explicando - Script de automação para manipular os serviços do ambiente Cloud"
+title: "Script de automação para manipular os serviços do ambiente em nuvem"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-11
 published: true
