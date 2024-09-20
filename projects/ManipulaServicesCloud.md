@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Project2.png
+image: img/project-image2.png
 title: "Ferramenta de Gestão de Serviços"
 date: 2024
 published: true
