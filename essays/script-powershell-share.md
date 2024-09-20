@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Explicando - Por dentro do script de correção dos compartilhamentos no ambiente Cloud"
+title: "Por dentro do script de correção dos compartilhamentos no ambiente em nuvem"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-11
 published: true
