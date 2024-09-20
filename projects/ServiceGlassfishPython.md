@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Project1.png
+image: img/project-image1.png
 title: "Automação de serviços Glassfish usando Python"
 date: 2024
 published: true
