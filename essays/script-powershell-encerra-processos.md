@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Explicando - Por dentro do script PowerShell para manipular processos por cliente"
+title: "Explicando o script em PowerShell para manipular processos filtrados por cliente"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-13
 published: true
