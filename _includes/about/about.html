@@ -6,33 +6,12 @@
         <!-- <img width="100%" src="img/logo-image.svg" class="d-block mx-auto" style="border: none;"> -->
       <!-- </div> -->
       <div class="col-lg-8 centralizado">
-        <style>
-            .centralizado {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin: auto;
-                text-align: center;
-                height: 100vh; /* Ocupa 100% da altura da janela */
-            }
-    
-            .texto-justificado {
-                text-align: justify; /* Justifica o texto */
-                max-width: 80%; /* Limita a largura do texto */
-            }
-    
-            hr.my-4 {
-                width: 80%; /* Ajusta a largura da linha horizontal */
-                margin: auto;
-            }
-        </style>
         <h1 class="display-4">{{ site.data.bio.basics.name }}</h1>
         <p class="lead">{{ site.data.bio.basics.label }}</p>
-        <p class="lead texto-justificado">{{ site.data.bio.basics.summary }}</p>
+        <p class="lead texto-justificado" style="text-align: justify>{{ site.data.bio.basics.summary }}</p>
         <hr class="my-4">
     </div>
-
+      
         <!-- Conhecimentos -->
         <p class="lead" style="text-align: justify; font-size: 2.5rem; margin-bottom: 20px;">
             <b>{{ site.data.bio.basics.conhecimentos }}</b>
