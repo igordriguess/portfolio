@@ -75,25 +75,36 @@
             <b>{{ site.data.bio.basics.certificacoes }}</b>
         </p>
         
-        <div class="conhecimentos-container" style="display: flex; justify-content: center; gap: 30px; margin-top: 20px; flex-wrap: wrap;">
-          
-            <div class="conhecimento-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
-                <img src="img/selo-itil4-foundation.svg" alt="itil4-foundation" style="width: 100px; margin-bottom: 10px;">
-            </div>
+        <div class="certificacoes-container" style="display: flex; justify-content: center; gap: 30px; margin-top: 20px; flex-wrap: wrap;">
 
-            <div class="conhecimento-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
-                <img src="img/oci-foundations.svg" alt="oci-foundation" style="width: 100px; margin-bottom: 10px;">
-            </div>
-
-            <div class="conhecimento-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
-                <img src="img/oci-architect.svg" alt="oci-architect" style="width: 100px; margin-bottom: 10px;">
-            </div>
-
-            <div class="conhecimento-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
+            <div class="certificacoes-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
                 <img src="img/az-900.svg" alt="az-900" style="width: 100px; margin-bottom: 10px;">
             </div>
 
-        <hr class="my-4">
+            <div class="certificacoes-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
+                <img src="img/oci-architect.svg" alt="oci-architect" style="width: 100px; margin-bottom: 10px;">
+            </div>
+
+            <div class="certificacoes-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
+                <img src="img/oci-foundations.svg" alt="oci-foundation" style="width: 100px; margin-bottom: 10px;">
+            </div>
+          
+            <div class="certificacoes-item" style="background-color: #fff; flex-grow: 0.5; padding: 20px; border: 2px solid #969696; border-radius: 10px; box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.150); width: 250px; text-align: center;">
+                <img src="img/selo-itil4-foundation.svg" alt="itil4-foundation" style="width: 100px; margin-bottom: 10px;">
+            </div>
+
+        <!-- Efeito no container -->
+            <style>
+              .certificacoes-item {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+              }
+            
+              .certificacoes-item:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+              }
+            </style> <!-- Fim do efeito -->
+        </div></p>
         
         <!-- Fim da aba de Conhecimentos -->
         
