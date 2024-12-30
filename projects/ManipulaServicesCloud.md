@@ -11,7 +11,7 @@ labels:
 summary: "Aplicativo de automação em Python para execução de scripts em Powershell"
 ---
 
-Este projeto consiste em uma interface gráfica (GUI) desenvolvida em Python, utilizando a biblioteca Tkinter, para manipulação remota de serviços em ambientes de Produção e Homologação de uma infraestrutura HCM SaaS da Senior. A ferramenta permite consultar, iniciar e parar serviços associados a um cliente específico, simplificando o gerenciamento de serviços em múltiplos servidores.
+Este projeto consiste em uma interface gráfica (GUI) desenvolvida em Python, utilizando a biblioteca Ttkbootstrap, para manipulação remota de serviços em ambientes de Produção e Homologação de uma infraestrutura HCM SaaS da Senior. A ferramenta permite consultar, iniciar e parar serviços associados a um cliente específico, simplificando o gerenciamento de serviços em múltiplos servidores.
 
 <b>Funcionalidades:</b> <br/>
 Consulta de Serviços Remotos: A aplicação realiza consultas remotas para verificar o status de serviços utilizando comandos PowerShell através da função subprocess, apresentando os resultados em uma tabela interativa. <br/>
@@ -21,8 +21,8 @@ Manipulação de Serviços: O usuário pode selecionar serviços específicos ou
 
 <b>Tecnologias utilizadas:</b> <br/>
 Python 3: Linguagem principal usada no projeto. <br/>
-Tkinter: Biblioteca nativa do Python para criação de interfaces gráficas. <br/>
-subprocess: Módulo utilizado para execução de comandos PowerShell remotamente. <br/>
+Ttkbootstrap: Biblioteca nativa do Python para criação de interfaces gráficas. <br/>
+Subprocess: Módulo utilizado para execução de comandos PowerShell remotamente. <br/>
 PowerShell: Linguagem de script para realizar consultas e operações nos servidores remotos. <br/>
 
 <b>Interface do Usuário:</b> <br/>
