@@ -27,20 +27,27 @@ Gerenciar usuários no Active Directory (AD) pode ser uma tarefa repetitiva e pr
 🛠️ <b>Operações Disponíveis:</b> <br/>
 <b>Consultar Usuário pelo Primeiro Nome:</b> <br/>
 - Pesquisa usuários pelo primeiro nome e exibe informações como nome completo, login, e-mail, status (ativo/inativo) e grupos pertencentes. <br/>
+
 <b>Listar Todos os Usuários:</b> <br/>
 - Exibe todos os usuários do AD, filtrando contas padrão como administrator e guest. <br/>
+
 <b>Criar Novo Usuário:</b> <br/>
 - Cria um novo usuário no AD com informações personalizadas. <br/>
 - Define senha, cargo, e adiciona aos grupos especificados. <br/>
+
 <b>Remover Usuário:</b> <br/>
 - Exclui um usuário do AD de forma segura. <br/>
+
 <b>Resetar Senha do Usuário:</b> <br/>
 - Permite redefinir a senha de um usuário. <br/>
 - Oferece opções para exigir a troca de senha no próximo login e para definir se a senha nunca expira. <br/>
+
 <b>Modificar Grupos do Usuário:</b> <br/>
 - Adiciona ou remove usuários de grupos no AD. <br/>
+
 <b>Ativar/Inativar Usuário:</b> <br/>
 - Ativa ou desativa contas de usuário de forma rápida. <br/>
+
 📋 <b>Interface Simples e Intuitiva:</b> <br/>
 - Menu interativo que guia o administrador pelas opções. <br/>
 - Feedback visual para cada ação realizada. <br/>
