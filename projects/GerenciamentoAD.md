@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/project-image3.svg
+image: img/project-image.svg
 title: "Ferramenta para Gerenciar usuários no Active Directory (AD)"
 date: 2025
 published: true
