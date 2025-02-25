@@ -15,7 +15,7 @@ summary: "Script Gerenciador de Usuários em PowerShell"
 <b>🚀 Automatizando a Gestão de Usuários no Active Directory com PowerShell 💻</b> <br/>
 Gerenciar usuários no Active Directory (AD) pode ser uma tarefa repetitiva e propensa a erros quando feita manualmente. Pensando nisso, desenvolvi um script em <b>PowerShell</b> para simplificar e automatizar as operações mais comuns no AD, garantindo eficiência e padronização no gerenciamento.
 
-🎯 <b>Funcionalidades do Script</b> <br/>
+🎯 <b>Funcionalidades do Script:</b> <br/>
 ✅ <b>Verificação de Permissões:</b> <br/>
 - O script verifica se está sendo executado com privilégios de administrador. <br/>
 - Se não estiver, reinicia automaticamente com as permissões necessárias. <br/>
@@ -63,5 +63,6 @@ Consistência: Garante que todas as operações sigam o mesmo padrão. <br/>
 Segurança: Minimiza riscos relacionados à manipulação manual de contas. <br/>
 Se você lida com ambientes que utilizam o Active Directory, esse script pode ser um grande aliado na sua rotina! ⚙️🔐 <br/>
 💬 Gostou? Tem sugestões ou dúvidas? Entre em contato comigo! 👇 <br/>
+📲💬 +55 16 99158-4347
 
-Clique [aqui](https://github.com/igordriguess/Python/blob/main/ManipulaAD.py) para visualizar o código completo.
+Clique [aqui](https://github.com/igordriguess/Python/blob/main/ManipulaAD.py) para ter acesso o código completo, aproveite e bom uso!!!
