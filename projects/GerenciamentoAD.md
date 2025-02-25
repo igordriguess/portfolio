@@ -65,4 +65,4 @@ Se você lida com ambientes que utilizam o Active Directory, esse script pode se
 💬 Gostou? Tem sugestões ou dúvidas? Entre em contato comigo! 👇 <br/>
 📲💬 +55 16 99158-4347
 
-Clique [aqui](https://github.com/igordriguess/Python/blob/main/ManipulaAD.py) para ter acesso o código completo, aproveite e bom uso!!!
+Clique [aqui](https://github.com/igordriguess/PowerShell/blob/main/ManipulaAD.ps1) para ter acesso o código completo, aproveite e bom uso!!!
