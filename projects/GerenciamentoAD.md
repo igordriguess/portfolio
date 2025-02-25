@@ -15,13 +15,15 @@ summary: "Script Gerenciador de Usuários em PowerShell"
 <b>🚀 Automatizando a Gestão de Usuários no Active Directory com PowerShell 💻</b> <br/>
 Gerenciar usuários no Active Directory (AD) pode ser uma tarefa repetitiva e propensa a erros quando feita manualmente. Pensando nisso, desenvolvi um script em <b>PowerShell</b> para simplificar e automatizar as operações mais comuns no AD, garantindo eficiência e padronização no gerenciamento.
 
-🎯 <b>Funcionalidades do Script:</b> <br/>
+🎯 <b>Funcionalidades do Script</b> <br/>
 ✅ <b>Verificação de Permissões:</b> <br/>
 - O script verifica se está sendo executado com privilégios de administrador. <br/>
 - Se não estiver, reinicia automaticamente com as permissões necessárias. <br/>
+
 📂 <b>Integração com o Active Directory:</b> <br/>
 - Verifica se o módulo Active Directory está instalado antes de continuar. <br/>
 - Conecta ao domínio especificado. <br/>
+
 🛠️ <b>Operações Disponíveis:</b> <br/>
 <b>Consultar Usuário pelo Primeiro Nome:</b> <br/>
 - Pesquisa usuários pelo primeiro nome e exibe informações como nome completo, login, e-mail, status (ativo/inativo) e grupos pertencentes. <br/>
